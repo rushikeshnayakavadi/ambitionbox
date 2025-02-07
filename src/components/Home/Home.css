@@ -1,0 +1,35 @@
+/* Home.css */
+
+/* Styling for Home Header */
+.home-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-image-container {
+  width: 50%;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,162 @@
+/* General styles */
+:root {
+  --primary-color: #808080; /* Changed from orange to grey */
+  --background-color: #f0f0f0; /* Light grey background */
+  --text-color: #333; /* Dark grey text */
+  --card-background: #e0e0e0; /* Slightly darker grey card background */
+  --border-color: #b0b0b0; /* Medium grey border */
+  --header-background: #d6d6d6; /* Light grey header background */
+}
+
+[data-theme="dark"] {
+  --primary-color: #808080; /* Grey for consistency */
+  --background-color: #1e1e1e; /* Dark grey background */
+  --text-color: #e0e0e0; /* Light text for contrast */
+  --card-background: #2a2a2a; /* Darker grey card background */
+  --border-color: #444; /* Dark grey border */
+  --header-background: #3a3a3a; /* Dark header background */
+}
+
+.interview-preparation {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.interview-preparation h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.interview-preparation p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+/* Role-specific experience styles */
+.role-experience h4 {
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.role-experience p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Process card styles */
+.process-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--card-background);
+}
+
+.process-card h4 {
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.process-card p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.process-card ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.process-card li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Company questions styles */
+.company-questions h4 {
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.company-questions ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.company-questions li {
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 1.5;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .interview-preparation {
+      padding: 10px;
+  }
+
+  .section {
+      padding: 15px;
+  }
+
+  .section h3 {
+      font-size: 20px;
+  }
+
+  .process-card,
+  .role-experience {
+      font-size: 14px;
+  }
+}

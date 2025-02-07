@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #808080; /* Grey theme */
+  --background-color: #333; /* Dark grey background */
+  --text-color: #000; /* Black text */
+  --card-background: #444; /* Slightly lighter dark grey card background */
+  --border-color: #555; /* Medium dark grey border */
+  --header-background: #666; /* Darker grey header background */
+}
+
+[data-theme="dark"] {
+  --primary-color: #808080;
+  --background-color: #1e1e1e;
+  --text-color: #000; /* Black text for dark mode */
+  --card-background: #2a2a2a;
+  --border-color: #444;
+  --header-background: #3a3a3a;
+}
+
+body {
+  background-color: var(--background-color); /* Dark grey background */
+  color: var(--text-color); /* Black text */
+  font-family: Arial, sans-serif;
+}
+
+.company-reviews {
+  padding: 20px;
+  background-color: var(--background-color); /* Dark grey background */
+  color: var(--text-color); /* Black text */
+}
+
+.company-reviews h2,
+.company-reviews p {
+  color: var(--text-color); /* Black text for headings and paragraphs */
+}
+
+.company-card {
+  padding: 15px;
+  background-color: var(--card-background); /* Darker card background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.company-card h3 {
+  margin-bottom: 5px;
+  color: var(--primary-color); /* Grey for headings */
+  font-weight: bold;
+}
+
+.company-logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.featured-tag {
+  background-color: var(--primary-color); /* Grey tag */
+  padding: 5px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  color: var(--text-color); /* Black text for the tag */
+  font-weight: bold;
+}
+
+.detailed-ratings p {
+  margin: 2px 0;
+  color: var(--text-color); /* Black text for detailed ratings */
+}
+
+.comparisons {
+  margin-top: 30px;
+}
+
+.comparisons h3 {
+  color: var(--primary-color); /* Grey headings for comparisons */
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid var(--border-color); /* Medium grey border */
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--text-color); /* Black text */
+}
+
+.comparison-table th {
+  background-color: var(--header-background); /* Darker grey header */
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: var(--card-background); /* Alternating row background */
+}
+
+.review-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: var(--card-background); /* Card background for the form */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-form h3 {
+  color: var(--primary-color); /* Grey for headings */
+  margin-bottom: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--border-color); /* Medium grey border */
+  border-radius: 5px;
+  background-color: var(--background-color); /* Dark grey input background */
+  color: var(--text-color); /* Black text */
+}
+
+.review-form button {
+  padding: 10px 15px;
+  background-color: var(--primary-color); /* Grey button background */
+  color: var(--text-color); /* Black text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #666; /* Darker grey on hover */
+}
+
+.review-form label {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--primary-color); /* Grey label text */
+}

@@ -1,0 +1,58 @@
+/* FresherJobListings.css */
+
+.fresher-job-listings {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .fresher-job-listings h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .fresher-job-listings p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .job-list, .internship-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-card, .internship-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .job-card h2, .internship-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p, .internship-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .apply-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,67 @@
+.learning-development {
+  padding: 20px;
+  background-color: #e0e0e0; /* Light grey background */
+}
+
+.learning-development h2 {
+  color: #666666; /* Dark grey for the main heading */
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.learning-development p {
+  color: #333333; /* Darker grey for text */
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.learning-card {
+  border: 1px solid #b0b0b0; /* Medium grey border */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f5f5f5; /* Lighter grey background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.learning-card h3 {
+  color: #666666; /* Dark grey heading */
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.learning-card p {
+  margin: 0;
+  color: #333333; /* Darker grey text */
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.learning-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Center and force video into a larger square shape */
+.video-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 15px 0;
+  position: relative;
+  width: 400px; /* Increased width */
+  height: 400px; /* Increased height to maintain square */
+  margin: 0 auto; /* Centers the div */
+  overflow: hidden; /* Ensures no aspect ratio issues */
+}
+
+/* Force iframe to be a square */
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: none;
+}

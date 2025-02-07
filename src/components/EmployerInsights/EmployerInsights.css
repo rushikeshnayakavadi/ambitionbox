@@ -1,0 +1,104 @@
+/* General Styles */
+.employer-insights {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+.employer-insights h2 {
+  font-size: 28px;
+  color: #808080; /* Grey color for consistency */
+  margin-bottom: 20px;
+}
+
+.employer-insights p {
+  font-size: 16px;
+  color: #555; /* Darker grey for readability */
+  margin-bottom: 30px;
+}
+
+/* Top Companies Section */
+.top-companies {
+  margin-bottom: 30px;
+}
+
+.top-companies h3 {
+  font-size: 22px;
+  color: #808080; /* Grey color for consistency */
+  margin-bottom: 10px;
+}
+
+.top-companies ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.top-companies li {
+  font-size: 16px;
+  color: #444; /* Medium grey text */
+  margin-bottom: 8px;
+}
+
+/* Insight Card Styles */
+.insight-card {
+  background-color: #e0e0e0; /* Grey card background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.insight-card h3 {
+  font-size: 22px;
+  color: #808080; /* Grey color for consistency */
+  margin-bottom: 10px;
+}
+
+.insight-card p {
+  font-size: 16px;
+  color: #555; /* Darker grey for readability */
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+/* Industry Rankings Section */
+.industry-rankings {
+  margin-top: 20px;
+}
+
+.industry-rankings h3 {
+  font-size: 22px;
+  color: #808080; /* Grey color for consistency */
+  margin-bottom: 10px;
+}
+
+.industry-rankings ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.industry-rankings li {
+  font-size: 16px;
+  color: #444; /* Medium grey text */
+  margin-bottom: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .employer-insights {
+    padding: 10px;
+  }
+
+  .insight-card {
+    padding: 15px;
+  }
+
+  h2, h3 {
+    font-size: 20px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+}

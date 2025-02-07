@@ -1,0 +1,42 @@
+.learning-upskilling {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .courses-section, .recommendations-section {
+    margin-bottom: 30px;
+  }
+  
+  .courses-list, .recommended-courses-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item, .recommended-course-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .course-item h4, .recommended-course-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .course-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .course-link:hover {
+    text-decoration: underline;
+  }
+  

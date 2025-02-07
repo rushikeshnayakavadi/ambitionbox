@@ -1,0 +1,50 @@
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f1a03c;
+  box-shadow: 0 2px 5px lightgray;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Updated login button styles */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; /* Green color */
+  border: none;
+  border-radius: 5px;
+  color: white; /* Ensures text is visible */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+  color: white; /* Text remains visible */
+}

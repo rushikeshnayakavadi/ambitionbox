@@ -1,0 +1,57 @@
+.analytics-dashboard {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #3a3a3a; /* Dark background for better visibility in light theme */
+  color: #ffffff; /* Light text color for better contrast */
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  font-size: 28px;
+  color: #ffcc00; /* Bright color for headings */
+}
+
+.header p {
+  font-size: 16px;
+  color: #dddddd; /* Light gray text for better visibility */
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 22px;
+  color: #ffcc00; /* Bright color for section headings */
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #cccccc; /* Light gray text for better contrast */
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section ul li {
+  font-size: 16px;
+  color: #bbbbbb; /* Light gray for list items */
+  margin-bottom: 8px;
+}
+
+.chart-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chart-container canvas {
+  max-width: 100%;
+  height: auto;
+}

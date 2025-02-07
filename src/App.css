@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fa9005;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap if needed */
+}
+
+header nav a {
+  margin: 0 1.5rem; /* Increased spacing between menu items */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  background: none; /* Removed special white box */
+  padding: 0; /* Ensures no extra padding */
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  color: #fa9005;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fa9005;
+  color: rgb(0, 0, 0);
+}
+
+.home {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f9f9f9;
+}

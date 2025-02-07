@@ -1,0 +1,89 @@
+.career-growth-resources {
+  padding: 20px;
+  background-color: #e0e0e0; /* Light grey background */
+}
+
+.career-growth-resources h2 {
+  color: #666666; /* Dark grey for the main heading */
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.career-growth-resources p {
+  color: #333333; /* Darker grey for text */
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.resource-card {
+  border: 1px solid #b0b0b0; /* Medium grey border */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f5f5f5; /* Lighter grey background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card h3 {
+  color: #666666; /* Dark grey heading */
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.resource-card p {
+  margin: 0;
+  color: #333333; /* Darker grey text */
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.resource-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Article Snippet Styling */
+.article-snippet {
+  background-color: #e8e8e8; /* Slightly lighter grey for contrast */
+  border-left: 5px solid #666666; /* Dark grey accent */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.article-snippet h4 {
+  color: #444444; /* Medium grey heading */
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.article-snippet p {
+  font-size: 0.95em;
+  color: #333333;
+  margin: 0;
+}
+
+/* Link Styling */
+.resource-card a {
+  color: #0073e6; /* Blue for visibility */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resource-card a:hover {
+  text-decoration: underline;
+}
+
+/* Center and format video/article section */
+.video-container,
+.article-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}

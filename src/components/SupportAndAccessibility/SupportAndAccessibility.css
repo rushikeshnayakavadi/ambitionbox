@@ -1,0 +1,25 @@
+.support-accessibility {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .support-accessibility h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .chat-support, .help-center {
+    margin-bottom: 30px;
+  }
+  
+  .chat-support h3, .help-center h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .chat-support p, .help-center p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,41 @@
+/* src/components/JobSearchAlerts/JobSearchAlerts.css */
+.job-search-alerts {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #34495e;
+  }
+  
+  .job-results ul, .saved-searches ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-results li, .saved-searches li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .job-results li:hover, .saved-searches li:hover {
+    background-color: #f7f7f7;
+  }
+  
